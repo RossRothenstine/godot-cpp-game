@@ -1,0 +1,20 @@
+# IDE files
+/.idea/
+/.vscode/*
+!/.vscode/extensions.json
+
+# Build artifacts
+/build/
+/compile_commands.json
+/.sconsign.dblite
+
+# Clangd cache
+/.cache
+
+# Generated files
+src/gen/**/*
+
+# Intermediate files
+*.o
+*.d
+*.obj
